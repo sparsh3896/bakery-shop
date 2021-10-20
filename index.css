@@ -62,7 +62,7 @@ nav {
   flex-direction: column;
   width: 18%;
 }
-button {
+.button {
   margin: 1.5rem 0;
   border: 1px solid #ddd;
   font-size: 1rem;
@@ -71,11 +71,13 @@ button {
   background-color: transparent;
   border-radius: 0.3rem;
   font-family: semibold_p;
+  display:flex;
+  justify-content: center;
 }
 .logo {
   width: 6rem;
 }
-button:hover {
+.button:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2), 10px 10px 50px rgba(0, 0, 0, 0.2);
   transition: 0.3s ease-in;
   background-color: white;
@@ -188,4 +190,79 @@ footer{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+a{
+  text-decoration: none;
+}
+.main2{
+    background-image: url("./img/Desktop\ -\ 2.png");
+    margin-top: 2rem;
+    padding-left: 3rem;
+    display: flex;
+}
+.center{
+  display:flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 60%;
+}
+.child{
+  height: 18rem;
+  align-self: center;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  
+  color: #64113f;
+  align-items: center;
+  margin:2rem;
+}
+.head{
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: .5rem;
+}
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+}
+.testimonial{
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  color: #64113f;
+  font-size: .9rem;
+  margin-right: 3rem;
+  border-radius: 1rem;
+  margin-top: 3rem;
+}
+.picofday{
+  border:1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  align-items: center;
+  margin-right: 3rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.lastimg{
+  height: 12rem;
+}
+.picofday:hover{
+  background-color: #f7cacd;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2), 10px 10px 50px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease-in;
+  transform: scale(1.05);
+  
+}
+.testimonial:hover{
+  background-color: #f7cacd;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2), 10px 10px 50px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease-in;
+  transform: scale(1.05);
+
 }
